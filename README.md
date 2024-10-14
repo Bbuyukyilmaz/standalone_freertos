@@ -15,6 +15,6 @@ Kria KV260 board boot-mode is set to SD boot if you want to boot the device by J
    st -system
 
 
-Now your device ready to boot from JTAG. (!If board power down then boot-mode turn to default configuration, you must follow same steps in order to boot the device via JTAG.)
+Now your device is ready to boot from JTAG. (If the board was powered down, the boot mode will return to its default configuration. You must follow the same steps again to boot the device via JTAG.)
 
 
