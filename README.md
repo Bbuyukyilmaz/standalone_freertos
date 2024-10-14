@@ -8,7 +8,7 @@ Kria KV260 board boot-mode is set to SD boot if you want to boot the device by J
   -  . targets -set -filter {name =~ "PSU"}
   -  . mwr 0xffca0010 0x0
   -  . wr 0xff5e0200 0x0100
-  -  . st -system 
+  -  . st -system \n
 Now your device ready to boot from JTAG. (!If board power down then boot-mode turn to default configuration, you must follow same steps in order to boot the device via JTAG.)
 
 
