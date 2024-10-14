@@ -7,8 +7,11 @@ Kria KV260 board boot-mode is set to SD boot if you want to boot the device by J
   - Open XCST console and run following commands.
   
    targets -set -filter {name =~ "PSU"}
+   
    mwr 0xffca0010 0x0
+   
    mwr 0xff5e0200 0x0100
+   
    st -system
 
 
