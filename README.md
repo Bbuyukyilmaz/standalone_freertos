@@ -1,5 +1,5 @@
 # standalone_freertos
-Standalone FreeRTOS implementation for Kria KV260.
+Standalone FreeRTOS implementation for Kria KV260. The source code in reporsitory are tested in Vitis 2024.1 IDE and the XSA file was created by Vivado 2024.1.
 
 
 Kria KV260 board boot-mode is set to SD boot if you want to boot the device by JTAG then follow the steps below.
