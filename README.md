@@ -5,6 +5,8 @@ Standalone FreeRTOS implementation for Kria KV260. The source code in reporsitor
 Kria KV260 board boot-mode is set to SD boot if you want to boot the device by JTAG then follow the steps below.
   - Connect the JTAG. (J3/J4)
   - Open XCST console and run following commands.
+
+   connect
   
    targets -set -filter {name =~ "PSU"}
    
